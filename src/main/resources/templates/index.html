@@ -22,7 +22,7 @@
             <#list datas as data>
             <tr>
                 <td><a href="/download1?param=${data.fileId}" target="_blanks">${data.fileName}</a></td>
-                <td><a href="/form?fileId=${data.fileId}" target="_blanks">Edit</a></td>
+                <td><a href="/form?fileId=${data.fileId}">Edit</a></td>
                 <td><a href="/delete?param=${data.fileId}">Delete</a></td>
             </tr>
             </#list>
